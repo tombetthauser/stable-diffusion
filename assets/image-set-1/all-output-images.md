@@ -20,6 +20,7 @@ Note that in promp text the special term &lt;artist&gt; is used as a stand-in fo
 
 (prompt for above image → "the last person on earth staring into the void by &lt;artist&gt;")<br>
 
+---
 
 
 <img src="all-output-images/prompt_lost_2.png" />
