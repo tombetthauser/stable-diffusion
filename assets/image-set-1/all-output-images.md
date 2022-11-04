@@ -24,7 +24,8 @@ Note that in promp text the special term &lt;artist&gt; is used as a stand-in fo
 
 <img src="all-output-images/prompt_lost_2.png" />
 
-(prompt not recorded)
+(prompt not recorded)<br>
+---
 
 
 
@@ -103,8 +104,8 @@ Note that in promp text the special term &lt;artist&gt; is used as a stand-in fo
 
 <img src="all-output-images/prompt_lost.png" />
 
-(prompt not recorded)
-
+(prompt not recorded)<br>
+---
 
 
 <img src="all-output-images/skeletons_painted_by_artist.png" />
@@ -121,7 +122,8 @@ Note that in promp text the special term &lt;artist&gt; is used as a stand-in fo
 
 <img src="all-output-images/three_dancing_figures_painted_by.png" />
 
-(prompt for above image → "three dancing figures painted by")
+(prompt for above image → "three dancing figures painted by")<br>
+---
 
 
 
