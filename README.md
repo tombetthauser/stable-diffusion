@@ -1,18 +1,18 @@
 # Stable Diffusion Experiments
 
 
-Output from collaborative experiments with visual artists. Also notes taken while working through an intro to machine learning course.
+<!-- Output from collaborative experiments with visual artists. Also notes taken while working through an intro to machine learning course. -->
 
-[stable diffusion notes](/assets/general-notes)
+<!-- [stable diffusion notes](/assets/general-notes) -->
 
 
----
+<!-- --- -->
 
-## Image Set 1...
 
 <img style="width: 350px;" src="./assets/image-set-1/image-001-0002.jpg">
+[prompt = "blue horses grazing by &lt;artist&gt;"]
 
-(for above image → prompt = "blue horses grazing by &lt;artist&gt;")
+## Image Set 1...
 
 Collaboration with a visual artist using fine-tuning to train stable diffusion model to recognize and emulate the style of the artist's paintings. Fine-tuning training was only given six examples of the artist's work. 
 * [favorite output images](/assets/image-set-1/favorite-output-images.md)
