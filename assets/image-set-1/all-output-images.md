@@ -12,6 +12,9 @@ In future sessions a set of control prompts should be given (ie "an astronaut ri
 Regardless of the small number of training images and scattered prompts the first session overwhelmingly felt like a success. The images generated seemed to constitute unique insights into the artists work without feeling like rote facsimilies or replacements for the original work. They did not seem to be attempting to accurately immitate the artist's hand and largely ignored the most unique aspects of the artist's work but seemed instead to provide the same feedback and idea-generation that would be given in a standard academic critique setting with other visual artists.
 
 Note that in promp text the special term &lt;artist&gt; is used as a stand-in for the artist's name. This is the same kind of syntax that is used when actually prompting the image generation model as a way of signalling that this is a special word that it should connect to the images that we trained it on during fine-tuning.
+*[favorite output images](./favorite-output-images.md)
+*[training images](./training-images.md)
+*[main page](/README.md)
 
 ---
 ## All Output Images with Prompts
