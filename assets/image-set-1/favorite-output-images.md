@@ -6,7 +6,7 @@ This seemed to translate to images that looked particularly similar to the artis
 
 For the most part they are presented in alphabetical order by file name. The file names are listed below each image and contain the original prompt.
 
-[all output images](/all-output-images.md)
+[all output images](./all-output-images.md)
 
 [training images]()
 
