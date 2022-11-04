@@ -8,7 +8,7 @@ Output from collaborative experiments with visual artists. Also notes taken whil
 
 ---
 
-## Image Set One...
+## Image Set 1...
 
 <img style="width: 350px;" src="./assets/image-set-1/image-001-0002.jpg">
 
