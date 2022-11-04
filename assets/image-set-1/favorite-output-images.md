@@ -6,6 +6,10 @@ This seemed to translate to images that looked particularly similar to the artis
 
 For the most part they are presented in alphabetical order by file name. The file names are listed below each image and contain the original prompt.
 
+[all output images](/all-output-images.md)
+
+[training images]()
+
 ---
 
 <img style="width: 450px;" src="./favorite-output-images/the_last_person_on_earth_staring_into_the_void_by_artist_1.jpg" />
