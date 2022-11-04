@@ -5,9 +5,9 @@ Below are 92 selections from the original set of the approximately 312 images ge
 This seemed to translate to images that looked particularly similar to the artist's work, realistic, strange, experimental etc. For the most part they also ended up being images that seemed as though they could stand on their own merits as artworks in a general academic critique environment outside the context of being a stable diffusion project.
 
 For the most part they are presented in alphabetical order by file name. The file names are listed below each image and contain the original prompt.
-*[all output images](./all-output-images.md)
-*[training images](./training-images.md)
-*[main page](/README.md)
+* [all output images](./all-output-images.md)
+* [training images](./training-images.md)
+* [main page](/README.md)
 
 ---
 
