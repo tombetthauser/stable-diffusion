@@ -1,9 +1,8 @@
-# Stable Diffusion: Artist Collaborations
+# Stable Diffusion / Artist Collaborations
 
-Collaborative experiments with visual artists and notes on machine learning concepts taken while building a custom stable diffusion implementation with the Python standard library.
-* [artist collaborations](https://tombetthauser.github.io/stable-diffusion/)
-* [machine learning notes](https://tombetthauser.github.io/stable-diffusion/)
-* [code implementation](https://tombetthauser.github.io/stable-diffusion/)
+Collaborative experiments with visual artists and explanatory notes on machine learning concepts taken while building a custom stable diffusion implementation with the Python standard library.
+* [artist collaborations 1](https://tombetthauser.github.io/stable-diffusion)
+* [artist collaborations 2](https://tombetthauser.github.io/stable-diffusion/artist-2)
 
 <!-- * [favorite output images](/assets/image-set-1/favorite-output-images.md) -->
 <!-- * [all output images](/assets/image-set-1/all-output-images.md) -->
@@ -11,9 +10,9 @@ Collaborative experiments with visual artists and notes on machine learning conc
 
 ---
 
-# Stable Diffusion: Notes
+# What is Stable Diffusion?
 
-The simplest possible explanatory notes on Machine Learning concepts and Stable Diffusion specifically taken while working through a [Practical Deep Learning](https://course.fast.ai/) course.
+Below are notes on stable diffusion, what it is, how it works and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are meant to be as accessible and accurate.
 
 ---
 
