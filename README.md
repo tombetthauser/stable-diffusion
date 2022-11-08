@@ -18,10 +18,9 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 
 ## Machine Learning Model
 
-A computer program that is trained rather than being written manually.
-
 <details>
   <summary>
+    A computer program that is trained rather than being written manually.
   </summary><br>
 
   In it's simplest form, Machine Learning seems to just be a particular strategy for getting a computer to do a complex task. Say you want a computer to be able to do something like play chess or tell you if an image has a blue horse in it or not. A programmer tries to write some code that does this and realizes its crazy to try to manually code for every possible situation. So they pivot to a Machine Learning approach where they set up a training scenario that allows some code to write itself, making educated guesses on how to get the desired output with a wide variety of input and reinforcing itself in small parts when it's successful until it has a working version of itself. 
