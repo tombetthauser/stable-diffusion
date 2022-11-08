@@ -101,8 +101,110 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   <summary>
     The library of stable diffusion tools freely provided by Hugging Face.
   </summary><br>
+
+  Hugging face is not the only group / company that provides these kinds of tools / libraries but as of October 2022 they are the best and seem likely to continue to be. Working with other libraries in the future should be more-or-less similar though.
+
 </details> 
 
+---
+
+## Pipeline
+
+<details>
+  <summary>
+    A saved process that unifies a group of ordered machine learning functions.
+  </summary><br>
+
+    Sometimes referred to as a learner. Contains a bunch of automated processes like inference and models etc. You can save a pipeline to Hugging Face's library which they refer to as the hub. You can make your own and save it or use a pre-trained pipeline loaded from Hugging Face.
+
+    Side note, Hugging Face saves things to the .cache folder in you home directory.
+    
+</details> 
+---
+
+## Inverence
+
+<details>
+  <summary>
+    Another method for developing generative image models different from diffusion.
+  </summary><br>
+</details> 
+---
+
+## Guidance Scale
+
+<details>
+  <summary>
+    A number that controls how much an input prompt is adhered.
+  </summary><br>
+
+  In stable diffusion a model will identify two sets of identified noise for each de-noising cycle. One that identifies noise unlike the prompt, and one that identifies noise that just generally makes the image not look like something real. It averages these two together based on the provided guidance scale.
+
+  A guidance scale of 0 will result in strange images that look realistic in a general sense but look garbled and non-specific. A guidance scale of 10 can result in images that look overly generic or cartoon-simplified. A guidance scale of 7.5 seems to be the default standard.
+
+</details> 
+---
+
+## Negative Prompt
+
+<details>
+  <summary>
+    A prompt that will cause an object / color etc to not appear in output images.
+  </summary><br>
+
+  Similar to guidance scale a negative prompt will result in an additional set of identified noise representing the negative prompt object etc. This will be subtracted rather than averaged into the other identified noise which will result in the object not appearing in the final output.
+
+</details> 
+---
+
+## Image to Image
+
+<details>
+  <summary>
+    A kind of pipeline that accepts a sketch / image along with a prompt as it's starting point.
+  </summary><br>
+</details> 
+
+---
+
+## Fine Tuning
+
+<details>
+  <summary>
+    A training data of images and text that piggy-backs on stable diffusion's functionality.
+  </summary><br>
+
+  Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
+
+</details> 
+---
+
+## Textual Inversion
+
+<details>
+  <summary>
+    A kind of fine tuning .
+  </summary><br>
+
+  Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
+
+</details> 
+---
+
+## Finite Differencing
+
+<details>
+  <summary>
+    An slow way to determine if changing an individual pixel makes an image more or less like something.
+  </summary><br>
+
+  Imagine a black box that takes an image as input and outputs a percentage chance that the input image contained a hand-written digit. If you gave it an image of pure noise / static, it might tell you there is a 0.02% chance that contains a handwritten number. If you made a few pixels darker or lighter, looking to connect darker areas into lines because handwritten numbers often contain lines, you could feed it back into our function and maybe raise the percentage chance to 0.08% and repeat the process until you had a good image of a number from a starting point of noise / static.
+
+  If you wanted to automate this process with random guessing for each pixel, you could. And the more manual time-consuming version of the process of determining how to change each pixel to increase the percentage might be referred to as Finite Differencing.
+
+  It seems this is essentially what we're doing with stable diffusion, but with more efficient python replacement for Finite Differencing.
+
+</details> 
 ---
 
 <!-- ## 
@@ -111,3 +213,12 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details> 
 --- -->
+
+---
+
+# Code Exercises / Notebooks
+
+## An Astronaut Riding a Horse
+* download a pipeline from hugging face
+* use it to create an astronaut riding a horse
+
