@@ -21,7 +21,8 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 A computer program that is trained rather than being written manually.
 
 <details>
-  <summary>more...</summary><br>
+  <summary>
+  </summary><br>
 
   In it's simplest form, Machine Learning seems to just be a particular strategy for getting a computer to do a complex task. Say you want a computer to be able to do something like play chess or tell you if an image has a blue horse in it or not. A programmer tries to write some code that does this and realizes its crazy to try to manually code for every possible situation. So they pivot to a Machine Learning approach where they set up a training scenario that allows some code to write itself, making educated guesses on how to get the desired output with a wide variety of input and reinforcing itself in small parts when it's successful until it has a working version of itself. 
 
@@ -41,7 +42,7 @@ A computer program that is trained rather than being written manually.
   </summary><br>
 
   Generative Models [seem to be an extremely academic subject](https://en.wikipedia.org/wiki/Generative_model) that might lean more towards math than programming. But in practical computer programming terms they seem generally be a kind of reversal of identification models. For instance if a programmer trained a machine learning model to identify if there was a blue horse in an image it would spit out some kind of simple `yes, there's a blue horse in this image` or `no, there's no blue horse in this image`. If we were trying to make sure no one was allowed to post images of blue horses on a website or return a bunch of images of blue horses in search engine results this would be an extremely practical tool. But if we wanted to do something weirder that programmer could potentially reverse that model so that it took `yes, there's a blue horse in this image` as the input and then output a completely made up image that had a horse in it. This would be purely based on all the model's unintelligible internal code and would probably look a little weird since it wasn't directly based on anything real. This also doesn't have as many obvious practical applications, but it clearly seems to be a very powerful tool. 
-  
+
 </details>
 
 
@@ -82,3 +83,31 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 <!-- ## DreamBooth -->
 <!-- ## Imagen / Google Brain -->
 <!-- ## Hugging Face -->
+
+---
+
+## DreamBooth
+
+<details>
+  <summary>
+    A tool that allows you to put an object / person etc into an image.
+  </summary><br>
+</details>
+
+---
+
+## Diffusers
+
+<details>
+  <summary>
+  </summary>The models that process between latents?<br>
+</details> 
+
+---
+
+<!-- ## 
+<details>
+  <summary>
+  </summary><br>
+</details> 
+--- -->
