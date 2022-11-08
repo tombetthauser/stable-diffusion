@@ -99,7 +99,8 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 <details>
   <summary>
-  </summary>The models that process between latents?<br>
+    The library of stable diffusion tools freely provided by Hugging Face.
+  </summary><br>
 </details> 
 
 ---
