@@ -45,24 +45,31 @@
     list-style: none;
     font-size: 14px;
   }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .current-page {
+    text-decoration: underline;
+  }
 </style>
 <body>
 
 
 <h1>Stable Diffusion / Artist Collaborations</h1>
 
-<a href="https://github.com/tombetthauser/stable-diffusion">github</a> / 
-<a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">concepts</a> / 
-<a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">code</a> / 
-<!-- <a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">all images</a> /  -->
-<a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/not-elon.pdf">zine</a>
+<a class="current-page" href="#">artist 1</a> / 
+<a href="./artist-2.html">artist 2</a> / 
+<a href="https://github.com/tombetthauser/stable-diffusion">diffusion</a> / 
+<a href="https://github.com/tombetthauser/stable-diffusion">github</a>
+<!-- <a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">code</a> /  -->
 
-<ul>
+<!-- <ul>
   <li><a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">→ artist 1</a></li>
   <li><a href="https://github.com/tombetthauser/stable-diffusion/blob/main/assets/artist-1/all-images.md">→ artist 2</a></li>
-</ul>
-
-<img src="https://stable-diffusion-1.s3.us-west-1.amazonaws.com/Photographs-of-Robert-Smithson%E2%80%99s-art-plus-grainy-bits-in-the-style-of-artist-016.png" />
+</ul> -->
 
 <h2>Training Images</h2>
 <div>
@@ -81,6 +88,7 @@
       <img src="./assets/artist-1/best-images/the_last_person_on_earth_staring_into_the_void_by_artist_1.jpg" />
     </summary>
     <p>"the last person on earth staring into the void by artist-1"</p>
+  </details>
 </div>
 
 <div>
