@@ -12,17 +12,22 @@ Collaborative experiments with visual artists and explanatory notes on machine l
 
 # What is Stable Diffusion?
 
-Below are notes on stable diffusion, what it is, how it works and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are meant to be as accessible and accurate.
+Below are notes on stable diffusion, what it is, how it works and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. Their goal is to explain how Stable diffusion works in the simplest possible terms.
 
 ---
 
-## Machine Learning Models
+## Machine Learning Model
 
-`TLDR: Computer programs that are trained rather than written manually.`
+A computer program that is trained rather than being written manually.
 
-In it's simplest form, Machine Learning seems to just be a particular strategy for getting a computer to do a complex task. Say you want a computer to be able to do something like play chess or tell you if an image has a blue horse in it or not. A programmer tries to write some code that does this and realizes its crazy to try to manually code for every possible situation. So they pivot to a Machine Learning approach where they set up a training scenario that allows some code to write itself, making educated guesses on how to get the desired output with a wide variety of input and reinforcing itself in small parts when it's successful until it has a working version of itself. 
+<details>
+  <summary>more</summary>
 
-This working version is often called a model and can consistently tell me what I wanted it to tell me, like if a random input image has a blue horse in it or not. They usually aren't perfect, maybe our blue horse identification model is accurate 92% of the time, but it can work consistently with literally any range input. if the programmer who set up this training scenario looked at the code inside the model they wouldn't necessarily have any idea why it was doing any individual thing it was doing, because they just coded the training not the model. This seems to cover what machine learning is in a very general sense, but is probably not a perfect explanation by any means. Head to [wikipedia](https://en.wikipedia.org/wiki/Machine_learning) for more obviously.
+  In it's simplest form, Machine Learning seems to just be a particular strategy for getting a computer to do a complex task. Say you want a computer to be able to do something like play chess or tell you if an image has a blue horse in it or not. A programmer tries to write some code that does this and realizes its crazy to try to manually code for every possible situation. So they pivot to a Machine Learning approach where they set up a training scenario that allows some code to write itself, making educated guesses on how to get the desired output with a wide variety of input and reinforcing itself in small parts when it's successful until it has a working version of itself. 
+
+  This working version is often called a model and can consistently tell me what I wanted it to tell me, like if a random input image has a blue horse in it or not. They usually aren't perfect, maybe our blue horse identification model is accurate 92% of the time, but it can work consistently with literally any range input. if the programmer who set up this training scenario looked at the code inside the model they wouldn't necessarily have any idea why it was doing any individual thing it was doing, because they just coded the training not the model. This seems to cover what machine learning is in a very general sense, but is probably not a perfect explanation by any means. Head to [wikipedia](https://en.wikipedia.org/wiki/Machine_learning) for more obviously.
+
+</details>
 
 
 ---
