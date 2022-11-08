@@ -1,8 +1,8 @@
 # Stable Diffusion / Artist Collaborations
 
 Collaborative experiments with visual artists and explanatory notes on machine learning concepts taken while building a custom stable diffusion implementation with the Python standard library.
-* [artist collaborations 1](https://tombetthauser.github.io/stable-diffusion)
-* [artist collaborations 2](https://tombetthauser.github.io/stable-diffusion/artist-2)
+* [artist collaboration 1](https://tombetthauser.github.io/stable-diffusion)
+* [artist collaboration 2](https://tombetthauser.github.io/stable-diffusion/artist-2)
 
 <!-- * [favorite output images](/assets/image-set-1/favorite-output-images.md) -->
 <!-- * [all output images](/assets/image-set-1/all-output-images.md) -->
