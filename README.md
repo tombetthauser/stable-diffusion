@@ -33,14 +33,11 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 ---
 
 
+## Generative Models
 
 <details>
   <summary>
-
-    ## Generative Models
-
     Models that produce complex outputs like writing and art.
-    
   </summary><br>
 
   Generative Models [seem to be an extremely academic subject](https://en.wikipedia.org/wiki/Generative_model) that might lean more towards math than programming. But in practical computer programming terms they seem generally be a kind of reversal of identification models. For instance if a programmer trained a machine learning model to identify if there was a blue horse in an image it would spit out some kind of simple `yes, there's a blue horse in this image` or `no, there's no blue horse in this image`. If we were trying to make sure no one was allowed to post images of blue horses on a website or return a bunch of images of blue horses in search engine results this would be an extremely practical tool. But if we wanted to do something weirder that programmer could potentially reverse that model so that it took `yes, there's a blue horse in this image` as the input and then output a completely made up image that had a horse in it. This would be purely based on all the model's unintelligible internal code and would probably look a little weird since it wasn't directly based on anything real. This also doesn't have as many obvious practical applications, but it clearly seems to be a very powerful tool. 
@@ -48,7 +45,7 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 </details>
 
 
----
+
 
 ## GPT-3
 
@@ -56,7 +53,7 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 
 It's the third generation model of the GPT-n series created by OpenAI in San Francisco and has been fully licensed by Microsoft since 2020. Individuals can still use it in limited amounts but code itself is not publicly accessible. Internally it uses a Transformer architecture, which seems to distinguish itself from other Machine Learning architectures by processing all the separate parts of it's input simultaneously rather than sequentially, like processing all three words in the input `colorless green ideas` rather than sequentially processing `colorless`, `green` then `ideas` in order. What that actually means seems difficult to get at from a non-academic perspective but that may have something to do with the fact that the source code is not publicly available.
 
----
+
 
 ## DALL-E
 
@@ -70,13 +67,13 @@ It's the third generation model of the GPT-n series created by OpenAI in San Fra
 
 As a potential point of interest, Midjourney's founder David Holz has stated that he sees visual artists as customers rather than competitors that might use text-to-image generation tools like Midjourney to rapidly prototype potential works for clients (or themselves) before committing to fully actualizing an artwork.
 
----
+
 
 ## Craiyon
 
 An open-source text-to-image generation model / platform / tool developed by Hugging Face, a New York based company focused on developing open-source ai resources. It was previously named DALL-E mini but changed it's name after being requested to do so by the team that developed DALL-E / DALL-E 2.
 
----
+
 
 ## Stable Diffusion
 
@@ -86,7 +83,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 <!-- ## Imagen / Google Brain -->
 <!-- ## Hugging Face -->
 
----
+
 
 ## DreamBooth
 
@@ -96,7 +93,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details>
 
----
+
 
 ## Diffusers
 
@@ -109,7 +106,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Pipeline
 
@@ -123,7 +120,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
     Side note, Hugging Face saves things to the .cache folder in you home directory.
     
 </details> 
----
+
 
 ## Inverence
 
@@ -132,7 +129,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
     Another method for developing generative image models different from diffusion.
   </summary><br>
 </details> 
----
+
 
 ## Guidance Scale
 
@@ -146,7 +143,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   A guidance scale of 0 will result in strange images that look realistic in a general sense but look garbled and non-specific. A guidance scale of 10 can result in images that look overly generic or cartoon-simplified. A guidance scale of 7.5 seems to be the default standard.
 
 </details> 
----
+
 
 ## Negative Prompt
 
@@ -158,7 +155,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   Similar to guidance scale a negative prompt will result in an additional set of identified noise representing the negative prompt object etc. This will be subtracted rather than averaged into the other identified noise which will result in the object not appearing in the final output.
 
 </details> 
----
+
 
 ## Image to Image
 
@@ -168,7 +165,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details> 
 
----
+
 
 ## Fine Tuning
 
@@ -180,7 +177,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
 
 </details> 
----
+
 
 ## Textual Inversion
 
@@ -193,7 +190,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Finite Differencing
 
@@ -210,7 +207,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Neural Net
 
@@ -225,7 +222,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Unet
 
@@ -238,7 +235,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Training Data
 
@@ -248,7 +245,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details> 
 
----
+
 
 ## Convolution
 
@@ -263,7 +260,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Inverse-Convolution
 
@@ -278,7 +275,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Auto-Encoder
 
@@ -291,7 +288,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 ## Encoder / VAE
 
@@ -301,7 +298,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details> 
 
----
+
 
 ## Decoder
 
@@ -311,7 +308,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   </summary><br>
 </details> 
 
----
+
 
 ## Latent
 
@@ -326,7 +323,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 </details> 
 
----
+
 
 
 <!-- ## 
@@ -334,9 +331,9 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   <summary>
   </summary><br>
 </details> 
---- -->
+ -->
 
----
+
 
 # Code Exercises / Notebooks
 
