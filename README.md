@@ -12,11 +12,11 @@ Collaborative experiments with visual artists and explanatory notes on machine l
 
 # What is Stable Diffusion?
 
-Stable diffusion is computer program that can turn text into images, referred to as a machine learning or deep learning model. It was released in 2022 as an open source project, meaning anyone can read and make their own version of the source code which is not the case for it's predecessors like DALL-E and Midjourney.
+Stable diffusion is computer program that can turn text into images, referred to as a machine learning or deep learning model. It was released in 2022 as an open source project, meaning anyone can read and make their own version of the source code. This is not the case for it's predecessors.
 
 Below are notes on stable diffusion and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are in no particular order.
 
-```⚠️ These notes are a work in progress!```
+```⚠️ These notes are a work in progress!...```
 
 ---
 
@@ -26,12 +26,11 @@ A computer program that is trained rather than being written manually. Models ar
 
 <details>
   <summary>more...</summary><br>
-
   In it's simplest form, Machine Learning seems to just be a particular strategy for getting a computer to do a complex task. Say you want a computer to be able to do something like play chess or tell you if an image has a blue horse in it or not. A programmer tries to write some code that does this and realizes its crazy to try to manually code for every possible situation. So they pivot to a Machine Learning approach where they set up a training scenario that allows some code to write itself, making educated guesses on how to get the desired output with a wide variety of input and reinforcing itself in small parts when it's successful until it has a working version of itself. 
 
   This working version is often called a model and can consistently tell me what I wanted it to tell me, like if a random input image has a blue horse in it or not. They usually aren't perfect, maybe our blue horse identification model is accurate 92% of the time, but it can work consistently with literally any range input. if the programmer who set up this training scenario looked at the code inside the model they wouldn't necessarily have any idea why it was doing any individual thing it was doing, because they just coded the training not the model. This seems to cover what machine learning is in a very general sense, but is probably not a perfect explanation by any means. Head to [wikipedia](https://en.wikipedia.org/wiki/Machine_learning) for more obviously.
-
 </details>
+
 
 
 ## Generative Models
@@ -45,10 +44,14 @@ Machine learning models that are trained to produce complex outputs like writing
 
 ## GPT-3
 
-[GPT-3](https://en.wikipedia.org/wiki/GPT-3) is a text-generation model that can write essay-length text from very short prompts like 'Write a story about a secret forest full of unicorns.' The GPT stands for Generative Pre-trained Transformer.It's widely regarded to be capable of producing writing that is indistinguishable or nearly indistinguishable from an actual person's writing and has been identified as having dangerous societal implications. The New York Times has described GPT-3's capabilities as being able to write original prose with fluency equivalent to that of a human. 
+GPT-3 is a text-generation model that can write essay-length text from very short prompts. It stands for Generative Pre-trained Transformer and was released in 2020 by OpenAI in San Francisco and is now licensed exclusively to Microsoft. It is not open source but can be used freely in limited amounts.
 
-It's the third generation model of the GPT-n series created by OpenAI in San Francisco and has been fully licensed by Microsoft since 2020. Individuals can still use it in limited amounts but code itself is not publicly accessible. Internally it uses a Transformer architecture, which seems to distinguish itself from other Machine Learning architectures by processing all the separate parts of it's input simultaneously rather than sequentially, like processing all three words in the input `colorless green ideas` rather than sequentially processing `colorless`, `green` then `ideas` in order. What that actually means seems difficult to get at from a non-academic perspective but that may have something to do with the fact that the source code is not publicly available.
+<details>
+  <summary>more...</summary><br>
+  [GPT-3](https://en.wikipedia.org/wiki/GPT-3) is a text-generation model that can write essay-length text from very short prompts like 'Write a story about a secret forest full of unicorns.' The GPT stands for Generative Pre-trained Transformer. It's widely regarded to be capable of producing writing that is indistinguishable or nearly indistinguishable from an actual person's writing and has been identified as having dangerous societal implications. The New York Times has described GPT-3's capabilities as being able to write original prose with fluency equivalent to that of a human. 
 
+  It's the third generation model of the GPT-n series created by OpenAI in San Francisco and has been fully licensed by Microsoft since 2020. Individuals can still use it in limited amounts but code itself is not publicly accessible. Internally it uses a Transformer architecture, which seems to distinguish itself from other Machine Learning architectures by processing all the separate parts of it's input simultaneously rather than sequentially, like processing all three words in the input `colorless green ideas` rather than sequentially processing `colorless`, `green` then `ideas` in order. What that actually means seems difficult to get at from a non-academic perspective but that may have something to do with the fact that the source code is not publicly available.
+</details>
 
 
 ## DALL-E
