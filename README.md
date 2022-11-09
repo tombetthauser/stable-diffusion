@@ -286,9 +286,9 @@ The multiplied product of two compressed versions of input images or text (also 
 
 
 
-# Code Exercises / Notebooks
+<!-- # Code Exercises / Notebooks -->
 
-### An Astronaut Riding a Horse
+<!-- ### An Astronaut Riding a Horse
 * download a pipeline from hugging face
-* use it to create an astronaut riding a horse
+* use it to create an astronaut riding a horse -->
 
