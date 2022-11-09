@@ -189,6 +189,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
 
 </details> 
+
 ---
 
 ## Finite Differencing
@@ -205,7 +206,50 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   It seems this is essentially what we're doing with stable diffusion, but with more efficient python replacement for Finite Differencing.
 
 </details> 
+
 ---
+
+## Neural Net
+
+<details>
+  <summary>
+    A neural net is what we use to train a function that we need rather than coding it manually.
+  </summary><br>
+
+  A neural net generally has inputs, outputs a loss function that updates weights using derivatives. [?]
+
+  In stable diffusion, the training data starts with clear images of known objects / numbers etc with varying amounts of noise added on top of them so the desired output percentage is known. This seems like it could be used to train a function that either identifies the static in an image or the percentage of noise present.
+
+</details> 
+
+---
+
+## Unet
+
+<details>
+  <summary>
+    A type of neural net that forms the first key component of stable diffusion.
+  </summary><br>
+
+  Originally developed for medical imaging. The input for a unet is a somewhat noisy image and the output is just the noise.
+
+</details> 
+
+---
+
+## Training Data
+
+<details>
+  <summary>
+    Data sets used to train neural networks where the input and desired output is known. 
+  </summary><br>
+
+
+
+</details> 
+
+---
+
 
 <!-- ## 
 <details>
