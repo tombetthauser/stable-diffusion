@@ -285,7 +285,7 @@ An image compression algorithm made up of a series of convolution layers.
 
 
 ### Decoder
-An image decompression algorithm made up of a series of inverse-convolution layers.
+A process that takes a compressed / latent version of an image and uncompresses it back to it's original state. It's made up of a series of inverse-convolution layers that each uncompress the image in stages.
 
 
 ### Latents
