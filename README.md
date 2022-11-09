@@ -20,7 +20,7 @@ Below are notes on stable diffusion and related machine learning concepts taken 
 
 ---
 
-## Machine Learning Model
+## Machine Learning Models
 
 A computer program that is trained rather than being written manually. Models are generally trained to accomplish a specific task using training data where the input and desired output is known. The internal logic of the trained program is treated like a black-box.
 
@@ -59,18 +59,23 @@ GPT-3 is a text-generation model that can write essay-length text from very shor
 
 ## DALL-E
 
-DALL-E is a text-to-image generative model also developed by OpenAI in San Francisco first released in 2021. It uses a modified version of GPT-3 to produce images from written prompts. The code is not publicly available but is free to anyone for limited use. It's named after WALL-E the Pixar character and Salvador Dali.
+DALL-E is a text-to-image generative model also developed by OpenAI in San Francisco first released in 2021. The code is not publicly available but is free to anyone for limited use. It's named after WALL-E the Pixar character and Salvador Dali.
 
 <details>
   <summary>more...</summary><br>
   [DALL-E / DALL-E 2](https://en.wikipedia.org/wiki/DALL-E) is a text-to-image generative model also developed by OpenAI in San Francisco first released to limited public access in 2021. It uses a modified version of GPT-3 under the hood to produce images from written prompts. Similar to GPT-3 the code is not publicly available but is free for anyone to make a certain number of free uses of, then paying for additional uses. The name is a combination of `WALL-E` the robot Pixar character and `Salvador Dali` the 20th century painter. As a side-note `WALL-E` subsequently is an abbreviation of `Waste Allocation Load Lifter: Earth-Class` which may or may not mean anything. Like GPT-3 it's based on a Transformer architecture that seems to refer generally to processing individual parts of the input in parallel.
 </details>
 
---
+
 
 ## Midjourney
 
-[Midjourney](https://en.wikipedia.org/wiki/Midjourney) is a company whose primary product / focus is a text-to image generation model of the same name. They are based in San Francisco and entered an open beta phase in 2022 that allows people to make text-based requests to it's image generation model via Discord for free up to a limited point, after which they need to pay for additional requests.
+Midjourney is a text-to-image generation made by a San Francisco company also called Midjourney. It was released in 2022 via Discord and is free to use up to a limited point. It is not open source.
+
+<details>
+  <summary>more...</summary><br>
+  [Midjourney](https://en.wikipedia.org/wiki/Midjourney) is a company whose primary product / focus is a text-to image generation model of the same name. They are based in San Francisco and entered an open beta phase in 2022 that allows people to make text-based requests to it's image generation model via Discord for free up to a limited point, after which they need to pay for additional requests.
+</details>
 
 As a potential point of interest, Midjourney's founder David Holz has stated that he sees visual artists as customers rather than competitors that might use text-to-image generation tools like Midjourney to rapidly prototype potential works for clients (or themselves) before committing to fully actualizing an artwork.
 
@@ -78,7 +83,13 @@ As a potential point of interest, Midjourney's founder David Holz has stated tha
 
 ## Craiyon
 
-An open-source text-to-image generation model / platform / tool developed by Hugging Face, a New York based company focused on developing open-source ai resources. It was previously named DALL-E mini but changed it's name after being requested to do so by the team that developed DALL-E / DALL-E 2.
+An open-source text-to-image generation model / platform / tool developed by Hugging Face based in New York. It was previously named DALL-E mini but the name was changed after a request to do so by the DALL-E team.
+
+
+
+## Hugging Face
+
+A New York based company focused on developing open-source ai resources. As of October 2022 they provide the most accessible downloadable form of stable diffusion.
 
 
 
@@ -86,32 +97,18 @@ An open-source text-to-image generation model / platform / tool developed by Hug
 
 Stable Diffusion is an open source text-to-image generation model developed at a University in Munich Germany. It's architecture and source code are public and will be explored in more detail in these notes.
 
-<!-- ## DreamBooth -->
 <!-- ## Imagen / Google Brain -->
-<!-- ## Hugging Face -->
-
 
 
 ## DreamBooth
 
-<details>
-  <summary>
-    A tool that allows you to put an object / person etc into an image.
-  </summary><br>
-</details>
+A tool that allows you to put an object / person etc into an image.
 
 
 
 ## Diffusers
 
-<details>
-  <summary>
-    The library of stable diffusion tools freely provided by Hugging Face.
-  </summary><br>
-
-  Hugging face is not the only group / company that provides these kinds of tools / libraries but as of October 2022 they are the best and seem likely to continue to be. Working with other libraries in the future should be more-or-less similar though.
-
-</details> 
+The library of stable diffusion tools freely provided by Hugging Face based in New York. As of 2022 this is the easiest way to download a working version of stable diffusion.
 
 
 
@@ -245,12 +242,7 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 
 ## Training Data
-
-<details>
-  <summary>
-    Data sets used to train neural networks where the input and desired output is known. 
-  </summary><br>
-</details> 
+Data sets used to train neural networks where the input and desired output is known. 
 
 
 
@@ -285,50 +277,20 @@ Stable Diffusion is an open source text-to-image generation model developed at a
 
 
 ## Auto-Encoder
-
-<details>
-  <summary>
-    Refers to the combination of a set of convolutional and inverse-convolutional layers. 
-  </summary><br>
-
-  
-
-</details> 
-
+Refers to the combination of a set of convolutional and inverse-convolutional layers. 
 
 
 ## Encoder / VAE
-
-<details>
-  <summary>
-    An image compression algorithm made up of a series of convolution layers.
-  </summary><br>
-</details> 
-
+An image compression algorithm made up of a series of convolution layers.
 
 
 ## Decoder
-
-<details>
-  <summary>
-    An image decompression algorithm made up of a series of inverse-convolution layers.
-  </summary><br>
-</details> 
+An image decompression algorithm made up of a series of inverse-convolution layers.
 
 
+## Latents
+Compressed versions of images after they are run through an encoder. Using latents is not fundamentally necessary machine learning but makes the process more efficient. 
 
-## Latent
-
-<details>
-  <summary>
-    The compressed version of an image after being run through an encoder.
-  </summary><br>
-
-  Latents seem similar to password hashes, except they can be reversed. So they are more like zipped versions of files. 
-
-  The whole process of using latents in training neural networks is just for time-saving / efficiency and is not actually necessary in a situation with unlimited resources. You could just train the same neural network on the uncompressed images, it would just take exponentially longer to train.
-
-</details> 
 
 
 
