@@ -16,7 +16,7 @@ Stable diffusion is computer program that can turn text into images, referred to
 
 Below are notes on stable diffusion and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are in no particular order.
 
-```⚠️ These notes are a work in progress! I'm still adding to them and cleaning them up...```
+```⚠️ These notes are a work in progress!```
 
 ---
 
