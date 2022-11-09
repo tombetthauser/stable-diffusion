@@ -197,7 +197,7 @@ Another method for developing generative image models different from diffusion. 
 
 
 ### Unet
-A type of neural net that forms the first key component of stable diffusion. Originally developed for medical imaging. The input for a unet is a somewhat noisy image and the output is just the noise.
+Transforms a noisy latent of an image into an unoisy latent by identifying the noise and returning that as output. It's a type of neural net that forms the first key component of stable diffusion.
 
 
 
@@ -273,8 +273,7 @@ An encoder that takes text as input and produces encoded embeddings / vectors / 
 <details>
   <summary>more...</summary><br>
   More generally a CLIP also seems to be referred to as a multi-modal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
-  ---
-</details>
+<hr></details>
 
 ### Dot Product
 The multiplied product of two compressed versions of input images or text (also called latents / vectors / embeddings). If a dot product is high it indicates that
