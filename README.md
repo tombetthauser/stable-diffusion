@@ -33,11 +33,14 @@ Below are notes on stable diffusion, what it is, how it works and related machin
 ---
 
 
-## Generative Models
 
 <details>
   <summary>
+
+    ## Generative Models
+
     Models that produce complex outputs like writing and art.
+    
   </summary><br>
 
   Generative Models [seem to be an extremely academic subject](https://en.wikipedia.org/wiki/Generative_model) that might lean more towards math than programming. But in practical computer programming terms they seem generally be a kind of reversal of identification models. For instance if a programmer trained a machine learning model to identify if there was a blue horse in an image it would spit out some kind of simple `yes, there's a blue horse in this image` or `no, there's no blue horse in this image`. If we were trying to make sure no one was allowed to post images of blue horses on a website or return a bunch of images of blue horses in search engine results this would be an extremely practical tool. But if we wanted to do something weirder that programmer could potentially reverse that model so that it took `yes, there's a blue horse in this image` as the input and then output a completely made up image that had a horse in it. This would be purely based on all the model's unintelligible internal code and would probably look a little weird since it wasn't directly based on anything real. This also doesn't have as many obvious practical applications, but it clearly seems to be a very powerful tool. 
@@ -243,8 +246,83 @@ Stable Diffusion is an open source text-to-image generation model developed at a
   <summary>
     Data sets used to train neural networks where the input and desired output is known. 
   </summary><br>
+</details> 
 
+---
 
+## Convolution
+
+<details>
+  <summary>
+    A process that compresses an image to a smaller version of itself. 
+  </summary><br>
+
+  Compressing an image down makes it more efficient to use as training data for a neural network. In stable diffusion we need a complementary inverse-convolution. In stable diffusion we trade height and width for depth.
+
+  We can refer to these convolutions as convolutional layers or neural network layer.
+
+</details> 
+
+---
+
+## Inverse-Convolution
+
+<details>
+  <summary>
+    A process that uncompresses an image from a compressed version created by a convolution. 
+  </summary><br>
+
+  Compressing an image down makes it more efficient to use as training data for a neural network. In stable diffusion we need a complementary inverse-convolution. In stable diffusion we trade height and width for depth.
+
+  We can refer to these convolutions as convolutional layers or neural network layer.
+
+</details> 
+
+---
+
+## Auto-Encoder
+
+<details>
+  <summary>
+    Refers to the combination of a set of convolutional and inverse-convolutional layers. 
+  </summary><br>
+
+  
+
+</details> 
+
+---
+
+## Encoder / VAE
+
+<details>
+  <summary>
+    An image compression algorithm made up of a series of convolution layers.
+  </summary><br>
+</details> 
+
+---
+
+## Decoder
+
+<details>
+  <summary>
+    An image decompression algorithm made up of a series of inverse-convolution layers.
+  </summary><br>
+</details> 
+
+---
+
+## Latent
+
+<details>
+  <summary>
+    The compressed version of an image after being run through an encoder.
+  </summary><br>
+
+  Latents seem similar to password hashes, except they can be reversed. So they are more like zipped versions of files. 
+
+  The whole process of using latents in training neural networks is just for time-saving / efficiency and is not actually necessary in a situation with unlimited resources. You could just train the same neural network on the uncompressed images, it would just take exponentially longer to train.
 
 </details> 
 
