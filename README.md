@@ -14,7 +14,9 @@ Collaborative experiments with visual artists and explanatory notes on machine l
 
 Stable diffusion is computer program that can turn text into images, referred to as a machine learning or deep learning model. It was released in 2022 as an open source project, meaning anyone can read and make their own version of the source code which is not the case for it's predecessors like DALL-E and Midjourney.
 
-Below are notes on stable diffusion, what it is, how it works and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course.
+Below are notes on stable diffusion and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are in no particular order.
+
+```⚠️ These notes are a work in progress! I'm still adding to them and cleaning them up...```
 
 ---
 
