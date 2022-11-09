@@ -20,7 +20,7 @@ Below are notes on stable diffusion and related machine learning concepts taken 
 
 ---
 
-## Machine Learning Models
+### Machine Learning Models
 
 A computer program that is trained rather than being written manually. Models are generally trained to accomplish a specific task using training data where the input and desired output is known. The internal logic of the trained program is treated like a black-box.
 
@@ -33,7 +33,7 @@ A computer program that is trained rather than being written manually. Models ar
 
 
 
-## Generative Models
+### Generative Models
 
 Machine learning models that are trained to produce complex outputs like writing and art. An image generation model might take an input like 'an astronaut riding a horse' and be able to produce thousands of convincing realistic images of this fictional scene.
 
@@ -44,7 +44,7 @@ Machine learning models that are trained to produce complex outputs like writing
 
 
 
-## GPT-3
+### GPT-3
 
 GPT-3 is a text-generation model that can write essay-length text from very short prompts. It stands for Generative Pre-trained Transformer and was released in 2020 by OpenAI in San Francisco and is now licensed exclusively to Microsoft. It is not open source but can be used freely in limited amounts.
 
@@ -57,7 +57,7 @@ GPT-3 is a text-generation model that can write essay-length text from very shor
 
 
 
-## DALL-E
+### DALL-E
 
 DALL-E is a text-to-image generative model also developed by OpenAI in San Francisco first released in 2021. The code is not publicly available but is free to anyone for limited use. It's named after WALL-E the Pixar character and Salvador Dali.
 
@@ -68,7 +68,7 @@ DALL-E is a text-to-image generative model also developed by OpenAI in San Franc
 
 
 
-## Midjourney
+### Midjourney
 
 Midjourney is a text-to-image generation made by a San Francisco company also called Midjourney. It was released in 2022 via Discord and is free to use up to a limited point. It is not open source.
 
@@ -81,38 +81,38 @@ As a potential point of interest, Midjourney's founder David Holz has stated tha
 
 
 
-## Craiyon
+### Craiyon
 
 An open-source text-to-image generation model / platform / tool developed by Hugging Face based in New York. It was previously named DALL-E mini but the name was changed after a request to do so by the DALL-E team.
 
 
 
-## Hugging Face
+### Hugging Face
 
 A New York based company focused on developing open-source ai resources. As of October 2022 they provide the most accessible downloadable form of stable diffusion.
 
 
 
-## Stable Diffusion
+### Stable Diffusion
 
 Stable Diffusion is an open source text-to-image generation model developed at a University in Munich Germany. It's architecture and source code are public and will be explored in more detail in these notes.
 
-<!-- ## Imagen / Google Brain -->
+<!-- ### Imagen / Google Brain -->
 
 
-## DreamBooth
+### DreamBooth
 
 A tool that allows you to put an object / person etc into an image.
 
 
 
-## Diffusers
+### Diffusers
 
 The library of stable diffusion tools freely provided by Hugging Face based in New York. As of 2022 this is the easiest way to download a working version of stable diffusion.
 
 
 
-## Pipeline
+### Pipeline
 
 <details>
   <summary>
@@ -126,7 +126,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 </details> 
 
 
-## Inverence
+### Inverence
 
 <details>
   <summary>
@@ -135,7 +135,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 </details> 
 
 
-## Guidance Scale
+### Guidance Scale
 
 <details>
   <summary>
@@ -149,7 +149,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 </details> 
 
 
-## Negative Prompt
+### Negative Prompt
 
 <details>
   <summary>
@@ -161,7 +161,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 </details> 
 
 
-## Image to Image
+### Image to Image
 
 <details>
   <summary>
@@ -171,7 +171,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
 
 
-## Fine Tuning
+### Fine Tuning
 
 <details>
   <summary>
@@ -183,7 +183,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 </details> 
 
 
-## Textual Inversion
+### Textual Inversion
 
 <details>
   <summary>
@@ -196,7 +196,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
 
 
-## Finite Differencing
+### Finite Differencing
 
 <details>
   <summary>
@@ -213,7 +213,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
 
 
-## Neural Net
+### Neural Net
 
 <details>
   <summary>
@@ -228,7 +228,7 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
 
 
-## Unet
+### Unet
 
 <details>
   <summary>
@@ -241,12 +241,12 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
 
 
-## Training Data
+### Training Data
 Data sets used to train neural networks where the input and desired output is known. 
 
 
 
-## Convolution
+### Convolution
 
 <details>
   <summary>
@@ -261,7 +261,7 @@ Data sets used to train neural networks where the input and desired output is kn
 
 
 
-## Inverse-Convolution
+### Inverse-Convolution
 
 <details>
   <summary>
@@ -276,26 +276,26 @@ Data sets used to train neural networks where the input and desired output is kn
 
 
 
-## Auto-Encoder
+### Auto-Encoder
 Refers to the combination of a set of convolutional and inverse-convolutional layers. 
 
 
-## Encoder / VAE
+### Encoder / VAE
 An image compression algorithm made up of a series of convolution layers.
 
 
-## Decoder
+### Decoder
 An image decompression algorithm made up of a series of inverse-convolution layers.
 
 
-## Latents
+### Latents
 Compressed versions of images after they are run through an encoder. Using latents is not fundamentally necessary machine learning but makes the process more efficient. 
 
 
 
 
 
-<!-- ## 
+<!-- ### 
 <details>
   <summary>
   </summary><br>
@@ -306,7 +306,7 @@ Compressed versions of images after they are run through an encoder. Using laten
 
 # Code Exercises / Notebooks
 
-## An Astronaut Riding a Horse
+### An Astronaut Riding a Horse
 * download a pipeline from hugging face
 * use it to create an astronaut riding a horse
 
