@@ -13,6 +13,8 @@ Collaborative experiments with visual artists and explanatory notes on machine l
 # What is Stable Diffusion?
 
 Stable diffusion is computer program that can turn text into images, referred to as a machine learning or deep learning model. It was released in 2022 as an open source project, meaning anyone can read and make their own version of the source code. This is not the case for it's predecessors.
+* play with it here → [dreamstudio.ai](https://beta.dreamstudio.ai/dream)
+* search images → [lexica.art](https://lexica.art/)
 
 Below are notes on stable diffusion and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are in no particular order.
 
@@ -261,7 +263,7 @@ An indication of what we're trying to remove noise from. Like the number three i
 <!-- ### Alt Text -->
 
 ### Text Encoder
-A black box function that takes text as input and outputs a compressed / latent representation of that text. We don't care about the internal architecture but it is a neural net containing wieghts that has inputs, outputs and a loss function.
+A black box function that takes text as input and outputs a compressed / latent representation of that text. We don't care about the internal architecture but it is a neural net containing weights that has inputs, outputs and a loss function.
 
 ### Image Encoder
 A black box function that takes an image as input and outputs a compressed / latent representation of that image. Again we don't care about the internal architecture but it is also a neural net containing weights that has inputs, outputs and a loss function.
@@ -271,6 +273,9 @@ Another term for the latent or compressed version of an input to a neural net en
 
 ### CLIP
 Also called a multimodal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
+
+### Dot Product
+The multiplied product of two compressed versions of input images or text (also called latents / vectors / embeddings). If a dot product is high it indicates that
 
 <!-- ### 
 <details>
