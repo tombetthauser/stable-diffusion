@@ -21,7 +21,6 @@ Below are notes on stable diffusion and related machine learning concepts taken 
 ---
 
 ### Machine Learning Models
-
 A computer program that is trained rather than being written manually. Models are generally trained to accomplish a specific task using training data where the input and desired output is known. The internal logic of the trained program is treated like a black-box.
 
 <details>
@@ -34,7 +33,6 @@ A computer program that is trained rather than being written manually. Models ar
 
 
 ### Generative Models
-
 Machine learning models that are trained to produce complex outputs like writing and art. An image generation model might take an input like 'an astronaut riding a horse' and be able to produce thousands of convincing realistic images of this fictional scene.
 
 <details>
@@ -45,7 +43,6 @@ Machine learning models that are trained to produce complex outputs like writing
 
 
 ### GPT-3
-
 GPT-3 is a text-generation model that can write essay-length text from very short prompts. It stands for Generative Pre-trained Transformer and was released in 2020 by OpenAI in San Francisco and is now licensed exclusively to Microsoft. It is not open source but can be used freely in limited amounts.
 
 <details>
@@ -58,7 +55,6 @@ GPT-3 is a text-generation model that can write essay-length text from very shor
 
 
 ### DALL-E
-
 DALL-E is a text-to-image generative model also developed by OpenAI in San Francisco first released in 2021. The code is not publicly available but is free to anyone for limited use. It's named after WALL-E the Pixar character and Salvador Dali.
 
 <details>
@@ -69,73 +65,43 @@ DALL-E is a text-to-image generative model also developed by OpenAI in San Franc
 
 
 ### Midjourney
-
 Midjourney is a text-to-image generation made by a San Francisco company also called Midjourney. It was released in 2022 via Discord and is free to use up to a limited point. It is not open source.
 
 <details>
   <summary>more...</summary><br>
   [Midjourney](https://en.wikipedia.org/wiki/Midjourney) is a company whose primary product / focus is a text-to image generation model of the same name. They are based in San Francisco and entered an open beta phase in 2022 that allows people to make text-based requests to it's image generation model via Discord for free up to a limited point, after which they need to pay for additional requests.
+
+  As a potential point of interest, Midjourney's founder David Holz has stated that he sees visual artists as customers rather than competitors that might use text-to-image generation tools like Midjourney to rapidly prototype potential works for clients (or themselves) before committing to fully actualizing an artwork.
 </details>
 
-As a potential point of interest, Midjourney's founder David Holz has stated that he sees visual artists as customers rather than competitors that might use text-to-image generation tools like Midjourney to rapidly prototype potential works for clients (or themselves) before committing to fully actualizing an artwork.
-
-
-
 ### Craiyon
-
 An open-source text-to-image generation model / platform / tool developed by Hugging Face based in New York. It was previously named DALL-E mini but the name was changed after a request to do so by the DALL-E team.
 
-
-
 ### Hugging Face
-
 A New York based company focused on developing open-source ai resources. As of October 2022 they provide the most accessible downloadable form of stable diffusion.
 
-
-
 ### Stable Diffusion
-
 Stable Diffusion is an open source text-to-image generation model developed at a University in Munich Germany. It's architecture and source code are public and will be explored in more detail in these notes.
 
 <!-- ### Imagen / Google Brain -->
 
-
-### DreamBooth
-
-A tool that allows you to put an object / person etc into an image.
-
-
+<!-- ### DreamBooth
+A tool that allows you to put an object / person etc into an image. -->
 
 ### Diffusers
-
 The library of stable diffusion tools freely provided by Hugging Face based in New York. As of 2022 this is the easiest way to download a working version of stable diffusion.
 
-
-
 ### Pipeline
+Sometimes referred to as a learner, a pipeline ontains a bunch of automated processes like inference and models etc. You can save a pipeline to Hugging Face's library which they refer to as the hub. You can also download pre-trained pipelines from them.
 
-<details>
-  <summary>
-    A saved process that unifies a group of ordered machine learning functions.
-  </summary><br>
-
-    Sometimes referred to as a learner. Contains a bunch of automated processes like inference and models etc. You can save a pipeline to Hugging Face's library which they refer to as the hub. You can make your own and save it or use a pre-trained pipeline loaded from Hugging Face.
-
-    Side note, Hugging Face saves things to the .cache folder in you home directory.
-    
-</details> 
+<!-- Side note, Hugging Face saves things to the .cache folder in you home directory. -->
 
 
-### Inverence
-
-<details>
-  <summary>
-    Another method for developing generative image models different from diffusion.
-  </summary><br>
-</details> 
+<!-- ### Inference
+Another method for developing generative image models different from diffusion.  -->
 
 
-### Guidance Scale
+<!-- ### Guidance Scale
 
 <details>
   <summary>
@@ -146,10 +112,10 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   A guidance scale of 0 will result in strange images that look realistic in a general sense but look garbled and non-specific. A guidance scale of 10 can result in images that look overly generic or cartoon-simplified. A guidance scale of 7.5 seems to be the default standard.
 
-</details> 
+</details>  -->
 
 
-### Negative Prompt
+<!-- ### Negative Prompt
 
 <details>
   <summary>
@@ -158,20 +124,20 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   Similar to guidance scale a negative prompt will result in an additional set of identified noise representing the negative prompt object etc. This will be subtracted rather than averaged into the other identified noise which will result in the object not appearing in the final output.
 
-</details> 
+</details>  -->
 
 
-### Image to Image
+<!-- ### Image to Image
 
 <details>
   <summary>
     A kind of pipeline that accepts a sketch / image along with a prompt as it's starting point.
   </summary><br>
-</details> 
+</details>  -->
 
 
 
-### Fine Tuning
+<!-- ### Fine Tuning
 
 <details>
   <summary>
@@ -180,10 +146,10 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
 
-</details> 
+</details>  -->
 
 
-### Textual Inversion
+<!-- ### Textual Inversion
 
 <details>
   <summary>
@@ -192,11 +158,11 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   Lambda Labs fine-tuned stable diffusion with a set of images of pokemon and auto-generated text like "green pokemon smiling". After training this the new fine-tuned model could accept a prompt like 'girl with a pearl earring' and output an image of that painting in the style of pokemon.
 
-</details> 
+</details>  -->
 
 
 
-### Finite Differencing
+<!-- ### Finite Differencing
 
 <details>
   <summary>
@@ -209,11 +175,11 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   It seems this is essentially what we're doing with stable diffusion, but with more efficient python replacement for Finite Differencing.
 
-</details> 
+</details>  -->
 
 
 
-### Neural Net
+<!-- ### Neural Net
 
 <details>
   <summary>
@@ -224,29 +190,21 @@ The library of stable diffusion tools freely provided by Hugging Face based in N
 
   In stable diffusion, the training data starts with clear images of known objects / numbers etc with varying amounts of noise added on top of them so the desired output percentage is known. This seems like it could be used to train a function that either identifies the static in an image or the percentage of noise present.
 
-</details> 
+</details>  -->
 
 
 
 ### Unet
-
-<details>
-  <summary>
-    A type of neural net that forms the first key component of stable diffusion.
-  </summary><br>
-
-  Originally developed for medical imaging. The input for a unet is a somewhat noisy image and the output is just the noise.
-
-</details> 
+A type of neural net that forms the first key component of stable diffusion. Originally developed for medical imaging. The input for a unet is a somewhat noisy image and the output is just the noise.
 
 
 
-### Training Data
-Data sets used to train neural networks where the input and desired output is known. 
+<!-- ### Training Data
+Data sets used to train neural networks where the input and desired output is known.  -->
 
 
 
-### Convolution
+<!-- ### Convolution
 
 <details>
   <summary>
@@ -257,11 +215,11 @@ Data sets used to train neural networks where the input and desired output is kn
 
   We can refer to these convolutions as convolutional layers or neural network layer.
 
-</details> 
+</details>  -->
 
 
 
-### Inverse-Convolution
+<!-- ### Inverse-Convolution
 
 <details>
   <summary>
@@ -272,16 +230,16 @@ Data sets used to train neural networks where the input and desired output is kn
 
   We can refer to these convolutions as convolutional layers or neural network layer.
 
-</details> 
+</details>  -->
 
 
 
-### Auto-Encoder
-Refers to the combination of a set of convolutional and inverse-convolutional layers. 
+<!-- ### Auto-Encoder
+Refers to the combination of a set of convolutional and inverse-convolutional layers.  -->
 
 
-### Encoder / VAE
-An image compression algorithm made up of a series of convolution layers.
+<!-- ### Encoder / VAE
+An image compression algorithm made up of a series of convolution layers. -->
 
 
 ### Decoder
@@ -292,8 +250,27 @@ A process that takes a compressed / latent version of an image and uncompresses 
 Compressed versions of images after they are run through an encoder. Using latents is not fundamentally necessary machine learning but makes the process more efficient. 
 
 
+<!-- ### Loss Function -->
+
+### Guidance
+An indication of what we're trying to remove noise from. Like the number three in a noisy image with a three somewhere in it.
 
 
+<!-- ### One-Part Encoded Version of an Image? -->
+
+<!-- ### Alt Text -->
+
+### Text Encoder
+A black box function that takes text as input and outputs a compressed / latent representation of that text. We don't care about the internal architecture but it is a neural net containing wieghts that has inputs, outputs and a loss function.
+
+### Image Encoder
+A black box function that takes an image as input and outputs a compressed / latent representation of that image. Again we don't care about the internal architecture but it is also a neural net containing weights that has inputs, outputs and a loss function.
+
+### Vectors
+Another term for the latent or compressed version of an input to a neural net encoder. It seems to always refer to a three dimensional array, meaning a data structure with 
+
+### CLIP
+Also called a multimodal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
 
 <!-- ### 
 <details>
