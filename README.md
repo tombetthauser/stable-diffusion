@@ -239,10 +239,8 @@ Data sets used to train neural networks where the input and desired output is kn
 <!-- ### Auto-Encoder
 Refers to the combination of a set of convolutional and inverse-convolutional layers.  -->
 
-
 <!-- ### Encoder / VAE
 An image compression algorithm made up of a series of convolution layers. -->
-
 
 ### Decoder
 A process that takes a compressed / latent version of an image and uncompresses it back to it's original state. It's made up of a series of inverse-convolution layers that each uncompress the image in stages.
@@ -251,15 +249,13 @@ A process that takes a compressed / latent version of an image and uncompresses 
 ### Latents
 Compressed versions of images after they are run through an encoder. Using latents is not fundamentally necessary machine learning but makes the process more efficient. 
 
-
 <!-- ### Loss Function -->
 
 ### Guidance
 An indication of what we're trying to remove noise from. Like the number three in a noisy image with a three somewhere in it.
 
-
-<!-- ### One-Part Encoded Version of an Image? -->
-
+<!-- ### One-Hot Encoded Version of an Image [?] -->
+<!-- ### One-Hot Encoded Vectors [?] -->
 <!-- ### Alt Text -->
 
 ### Text Encoder
@@ -271,11 +267,22 @@ A black box function that takes an image as input and outputs a compressed / lat
 ### Vectors
 Another term for the latent or compressed version of an input to a neural net encoder. It seems to always refer to a three dimensional array, meaning a data structure with 
 
-### CLIP
-Also called a multimodal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
+### CLIP Text Encoder
+An encoder that takes text as input and produces encoded embeddings / vectors / latents where similar text inputs produce similar embeddings.
+<!-- ^ [?] -->
+<details>
+  <summary>more...</summary><br>
+  More generally a CLIP also seems to be referred to as a multi-modal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
+</details>
 
 ### Dot Product
 The multiplied product of two compressed versions of input images or text (also called latents / vectors / embeddings). If a dot product is high it indicates that
+
+<!-- ### Guidance [?] -->
+
+### Contrastive Loss
+Seems to refer to a table where we can compare the respective latents / vectors from images and text to determine when they are related or unrelated. The CL in CLIP refers to contrastive loss.
+<!-- ^ [?] -->
 
 <!-- ### 
 <details>
