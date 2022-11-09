@@ -273,6 +273,7 @@ An encoder that takes text as input and produces encoded embeddings / vectors / 
 <details>
   <summary>more...</summary><br>
   More generally a CLIP also seems to be referred to as a multi-modal model set. In the context of stable diffusion, the CLIP refers to a paired image encoder and a text encoder that produce similar compressed versions of their inputs, like the text 'horse' and an image of a horse that both compress to similar vectors / latents. Paired together these allow us to turn text prompts into images.
+  ---
 </details>
 
 ### Dot Product
