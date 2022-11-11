@@ -22,6 +22,14 @@ Below are notes on stable diffusion and related machine learning concepts taken 
 
 ---
 
+<!-- LECTURE LINKS -->
+<!-- Lecture 09: https://www.youtube.com/watch?v=_7rMfsA24Ls -->
+<!-- Lecture 10: https://www.youtube.com/watch?v=6StU6UtZEbU -->
+<!-- Lecture 11: https://www.youtube.com/watch?v=Tf-8F5q8Xww -->
+<!-- Lecture 12: https://www.youtube.com/watch?v=_xIzPbCgutY -->
+<!-- Lecture 13: https://www.youtube.com/watch?v=mvyiwjWPGig -->
+
+
 ### Machine Learning Models
 A computer program that is trained rather than being written manually. Models are generally trained to accomplish a specific task using training data where the input and desired output is known. The internal logic of the trained program is treated like a black-box.
 
@@ -39,7 +47,7 @@ Machine learning models that are trained to produce complex outputs like writing
 
 <details>
   <summary>more...</summary><br>
-  Generative Models [seem to be an extremely academic subject](https://en.wikipedia.org/wiki/Generative_model) that might lean more towards math than programming. But in practical computer programming terms they seem generally be a kind of reversal of identification models. For instance if a programmer trained a machine learning model to identify if there was a blue horse in an image it would spit out some kind of simple `yes, there's a blue horse in this image` or `no, there's no blue horse in this image`. If we were trying to make sure no one was allowed to post images of blue horses on a website or return a bunch of images of blue horses in search engine results this would be an extremely practical tool. But if we wanted to do something weirder that programmer could potentially reverse that model so that it took `yes, there's a blue horse in this image` as the input and then output a completely made up image that had a horse in it. This would be purely based on all the model's unintelligible internal code and would probably look a little weird since it wasn't directly based on anything real. This also doesn't have as many obvious practical applications, but it clearly seems to be a very powerful tool. 
+  Generative Models seem to be an extremely academic subject (https://en.wikipedia.org/wiki/Generative_model) that might lean more towards math than programming. But in practical computer programming terms they seem generally be a kind of reversal of identification models. For instance if a programmer trained a machine learning model to identify if there was a blue horse in an image it would spit out some kind of simple `yes, there's a blue horse in this image` or `no, there's no blue horse in this image`. If we were trying to make sure no one was allowed to post images of blue horses on a website or return a bunch of images of blue horses in search engine results this would be an extremely practical tool. But if we wanted to do something weirder that programmer could potentially reverse that model so that it took `yes, there's a blue horse in this image` as the input and then output a completely made up image that had a horse in it. This would be purely based on all the model's unintelligible internal code and would probably look a little weird since it wasn't directly based on anything real. This also doesn't have as many obvious practical applications, but it clearly seems to be a very powerful tool. 
 <hr></details>
 
 
@@ -49,7 +57,7 @@ GPT-3 is a text-generation model that can write essay-length text from very shor
 
 <details>
   <summary>more...</summary><br>
-  [GPT-3](https://en.wikipedia.org/wiki/GPT-3) is a text-generation model that can write essay-length text from very short prompts like 'Write a story about a secret forest full of unicorns.' The GPT stands for Generative Pre-trained Transformer. It's widely regarded to be capable of producing writing that is indistinguishable or nearly indistinguishable from an actual person's writing and has been identified as having dangerous societal implications. The New York Times has described GPT-3's capabilities as being able to write original prose with fluency equivalent to that of a human. 
+  GPT-3 (https://en.wikipedia.org/wiki/GPT-3) is a text-generation model that can write essay-length text from very short prompts like 'Write a story about a secret forest full of unicorns.' The GPT stands for Generative Pre-trained Transformer. It's widely regarded to be capable of producing writing that is indistinguishable or nearly indistinguishable from an actual person's writing and has been identified as having dangerous societal implications. The New York Times has described GPT-3's capabilities as being able to write original prose with fluency equivalent to that of a human. 
 
   It's the third generation model of the GPT-n series created by OpenAI in San Francisco and has been fully licensed by Microsoft since 2020. Individuals can still use it in limited amounts but code itself is not publicly accessible. Internally it uses a Transformer architecture, which seems to distinguish itself from other Machine Learning architectures by processing all the separate parts of it's input simultaneously rather than sequentially, like processing all three words in the input `colorless green ideas` rather than sequentially processing `colorless`, `green` then `ideas` in order. What that actually means seems difficult to get at from a non-academic perspective but that may have something to do with the fact that the source code is not publicly available.
 <hr></details>
@@ -61,7 +69,7 @@ DALL-E is a text-to-image generative model also developed by OpenAI in San Franc
 
 <details>
   <summary>more...</summary><br>
-  [DALL-E / DALL-E 2](https://en.wikipedia.org/wiki/DALL-E) is a text-to-image generative model also developed by OpenAI in San Francisco first released to limited public access in 2021. It uses a modified version of GPT-3 under the hood to produce images from written prompts. Similar to GPT-3 the code is not publicly available but is free for anyone to make a certain number of free uses of, then paying for additional uses. The name is a combination of `WALL-E` the robot Pixar character and `Salvador Dali` the 20th century painter. As a side-note `WALL-E` subsequently is an abbreviation of `Waste Allocation Load Lifter: Earth-Class` which may or may not mean anything. Like GPT-3 it's based on a Transformer architecture that seems to refer generally to processing individual parts of the input in parallel.
+  DALL-E / DALL-E 2 (https://en.wikipedia.org/wiki/DALL-E) is a text-to-image generative model also developed by OpenAI in San Francisco first released to limited public access in 2021. It uses a modified version of GPT-3 under the hood to produce images from written prompts. Similar to GPT-3 the code is not publicly available but is free for anyone to make a certain number of free uses of, then paying for additional uses. The name is a combination of `WALL-E` the robot Pixar character and `Salvador Dali` the 20th century painter. As a side-note `WALL-E` subsequently is an abbreviation of `Waste Allocation Load Lifter: Earth-Class` which may or may not mean anything. Like GPT-3 it's based on a Transformer architecture that seems to refer generally to processing individual parts of the input in parallel.
 <hr></details>
 
 
@@ -71,7 +79,7 @@ Midjourney is a text-to-image generation made by a San Francisco company also ca
 
 <details>
   <summary>more...</summary><br>
-  [Midjourney](https://en.wikipedia.org/wiki/Midjourney) is a company whose primary product / focus is a text-to image generation model of the same name. They are based in San Francisco and entered an open beta phase in 2022 that allows people to make text-based requests to it's image generation model via Discord for free up to a limited point, after which they need to pay for additional requests.
+  Midjourney (https://en.wikipedia.org/wiki/Midjourney) is a company whose primary product / focus is a text-to image generation model of the same name. They are based in San Francisco and entered an open beta phase in 2022 that allows people to make text-based requests to it's image generation model via Discord for free up to a limited point, after which they need to pay for additional requests.
 
   As a potential point of interest, Midjourney's founder David Holz has stated that he sees visual artists as customers rather than competitors that might use text-to-image generation tools like Midjourney to rapidly prototype potential works for clients (or themselves) before committing to fully actualizing an artwork.
 <hr></details>
@@ -284,6 +292,21 @@ The multiplied product of two compressed versions of input images or text (also 
 Seems to refer to a table where we can compare the respective latents / vectors from images and text to determine when they are related or unrelated. The CL in CLIP refers to contrastive loss.
 <!-- ^ [?] -->
 
+<!-- ### Latent vs Embedding [?] -->
+
+## Distillation / Teacher / Student Networks
+When a working model with many steps is consolidated down to a smaller number of steps by training a student network / unet to skip or consolidate steps. This can be performed again and again to minimize the number of steps.
+
+
+<!-- ## Score Functions / Gradients [?] -->
+<!-- ## Time Steps [?] -->
+<!-- ## Diffusion Sampler [?] -->
+<!-- ## Deep Learning Optimizer [?] -->
+<!-- ## Deep Momentum Optimizer [?] -->
+<!-- ## Adam Optimizers [?] -->
+<!-- ## Optimizer [?] -->
+<!-- ## MSE [?] -->
+
 <!-- ### 
 <details>
   <summary>
@@ -295,7 +318,15 @@ Seems to refer to a table where we can compare the respective latents / vectors 
 
 <!-- # Code Exercises / Notebooks -->
 
-<!-- ### An Astronaut Riding a Horse
+<!-- ### Astronaut Riding a Horse
 * download a pipeline from hugging face
 * use it to create an astronaut riding a horse -->
+
+<!-- ### Gravity Grid
+* download a pipeline from hugging face
+* use it to generate a grid of images from different prompts with 0 to 10 gravity -->
+
+<!-- ### An Astronaut Riding a Horse
+* download a pipeline from hugging face
+* use it to generate a grid of images from different prompts with 0 to 10 gravity -->
 
