@@ -294,8 +294,13 @@ Seems to refer to a table where we can compare the respective latents / vectors 
 
 <!-- ### Latent vs Embedding [?] -->
 
-## Distillation / Teacher / Student Networks
+### Distillation / Teacher / Student Networks
 When a working model with many steps is consolidated down to a smaller number of steps by training a student network / unet to skip or consolidate steps. This can be performed again and again to minimize the number of steps.
+
+<!-- ###  Classifier Free Guidance Diffusion [?] -->
+<!-- ###  Cuda [?] -->
+
+
 
 
 <!-- ## Score Functions / Gradients [?] -->
