@@ -4,13 +4,13 @@
 Collaborative experiments with visual artists and explanatory notes on machine learning concepts taken while building a custom stable diffusion implementation with the Python standard library.
 * [artist collaboration 1](https://tombetthauser.github.io/stable-diffusion)
 * [artist collaboration 2](https://tombetthauser.github.io/stable-diffusion/artist-2)
+
+---
  -->
 
 <!-- * [favorite output images](/assets/image-set-1/favorite-output-images.md) -->
 <!-- * [all output images](/assets/image-set-1/all-output-images.md) -->
 <!-- * [training images](/assets/image-set-1/training-images.md) -->
-
----
 
 # What is Stable Diffusion?
 
@@ -20,7 +20,7 @@ Stable diffusion is computer program that can turn text into images, referred to
 
 Below are notes on stable diffusion and related machine learning concepts taken while working through a [Practical Deep Learning](https://course.fast.ai/) course. They are in no particular order.
 
-```⚠️ These notes are a work in progress!...```
+```⚠️ These notes are a work in progress!```
 
 ---
 
