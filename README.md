@@ -337,3 +337,52 @@ When a working model with many steps is consolidated down to a smaller number of
 * download a pipeline from hugging face
 * use it to generate a grid of images from different prompts with 0 to 10 gravity -->
 
+
+
+
+---
+
+# Notes on Alignment
+
+### Alignment / Misalignment
+An aligned ai is one that effectively pursues the goals intended by it's designers / engineers. A misaligned  ai is one that might effectively pursue a goal, just not the one intended by the humans who created it. The United Nations has called for research and policies to ensure that AI systems are aligned with human values.
+
+### AI Alignment Research
+AI Alignment is a subset within the field of AI Safety in the larger field of Artificial Intelligence research. The goal of AI Alignment as a professional focus is to steer / align AI systems towards the goals and interests of the designers and engineers creating them.
+
+### Proxy Goals
+
+### Reward Hacking / Goodhart's Law
+
+### Instrumental Behaviors
+
+### Emergent Goals
+
+### Capability Control
+
+### Explainable AI / Interpretable AI
+AI whose decisions can be understood by human beings. Contrasted with the idea of black-boxed AI where it's individual decisions cannot be understood or backtraced by the engineers who designed the model and facilitated it's training.
+
+### Norbert Wiener / The Alignment Problem
+"If we use, to achieve our purposes, a mechanical agency with whose operation we cannot interfere effectively ... we had better be quite sure that the purpose put into the machine is the purpose which we really desire." (1960)
+
+### Stuart Russell
+
+### Recommender Algorithms
+Stanford researchers observed that the recommender algorithms used in social media platforms are misaligned with their users because they simply optimize for engagement metrics and not social or user well-being which is harder to measure.
+
+### Asimov's Laws
+Asimov's Three Laws of Robotics has been suggested as an inspiration for possible hard constraints that could ensure AI alignment. But Russel and Norvig argue that this overly simplifies the complexities with which a misaligned ai could pervert the constraints and goals of it's engineers, and that humans are not realistically capable of predicting all the concrete ways in which a misaligned ai could harm human interests. Regardless the laws, which are originally from the short story "Runaround" are:
+  1. A robot may not injure a human, or through inaction, allow a human to come to harm.
+  2. A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+  3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+
+### Systemic Risks
+Companies and governments have already established a track record illustrating a tendency to deploy misaligned AI's due to competitive pressure. The largest example being social medias unintended effects of mass addiction, social alienation and political polarization.
+
+### Emergent Power-Seeking / Convergent Instrumental Goals
+Current AI models still lack the abilities of long-term planning and strategic awareness, which are thought to pose the most serious risks to humanity. Such systems may independently develop as an emergent behavior capable of maximizing the ability to achieve a wide variety of smaller practical goals by seeking to maximize control over their environment. This is referred to as power-seeking or developing Convergent Instrumental Goals. This behavior has already been observed in limited scenarios.
+
+### The Future of Humanity Institute
+   
+
